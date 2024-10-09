@@ -20,4 +20,4 @@ If you are working on `Game1`, for instance, it will make more sense to run the 
 
 Your goal is to modify the tests to make the test case pass without modifying the smart contract (and leaving the `isWon` assertion in place).
 
-for adding a remote repo, first delete .git folder, then reinitialize the repo with git init.
+for adding a remote repo, first delete .git folder, then reinitialize the repo with `git init`.
