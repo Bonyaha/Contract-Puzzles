@@ -6,7 +6,7 @@ describe('Game3', function () {
     const Game = await ethers.getContractFactory('Game3');
     const game = await Game.deploy();
 
-    // Hardhat will create 10 accounts for you by default
+    // Hardhat will create 20 accounts for you by default
     // you can get one of this accounts with ethers.provider.getSigner
     // and passing in the zero-based indexed of the signer you want:
     const [signer, acc1, acc2, acc3] = await ethers.getSigners();
